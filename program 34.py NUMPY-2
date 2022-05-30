@@ -1,0 +1,8 @@
+#NUMPY  QUESTION 2:
+import numpy as np
+x = np.array(['Pointless Persons, Pointed, Out'], dtype=np.str)
+print("\nOriginal Array:")
+print(x)
+r = np.char.replace(x, "Pointless", "Point")
+print("\nNew array:")
+print(r)
