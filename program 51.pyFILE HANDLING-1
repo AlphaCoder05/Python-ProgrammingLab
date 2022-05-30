@@ -1,0 +1,2 @@
+with open('sample.txt','w') as f:
+    f.write('''Name Sudhanshu  Section F Python Programming lab''')
