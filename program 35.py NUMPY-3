@@ -1,0 +1,7 @@
+#NUMPY  QUESTION 3:
+import numpy as np
+x = np.array(['Love, Live, Life'], dtype=np.str)
+print("Original Array:")
+print(x)
+r = np.char.splitlines(x)
+print(r)
