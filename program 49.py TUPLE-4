@@ -1,0 +1,5 @@
+t = tuple(map(int,input().split()))
+print(t)
+a=int(input('Enter a no. for checking there appearance : '))
+count = t.count(a)
+print(count)
