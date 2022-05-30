@@ -1,0 +1,7 @@
+#converting the tuple to list
+l = list(t) 
+#remove an item of the list
+l.remove("c") 
+#converting the list to tuple
+t = tuple(l)
+print(t)
