@@ -1,0 +1,7 @@
+a=tuple(map(int,input().split()))
+print(a)
+ls=[]
+for i in (a):
+    if a.count(i)>1 and i not in ls:
+        print(i)
+        ls.append(i)
